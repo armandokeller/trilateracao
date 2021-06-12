@@ -112,5 +112,5 @@ if __name__ == "__main__":
     plota_distancias(pontos,p_alvo)
     coord_estimada = estima_coordenadas(pontos,p_alvo)
     print(f'Coordenadas estimadas: x:{coord_estimada[0]:.2f} y:{coord_estimada[1]:.2f}')
-    print(f'Coordenadas estimadas: x:{p_alvo.x:.2f} y:{p_alvo.y:.2f}')
+    print(f'Coordenadas reais: x:{p_alvo.x:.2f} y:{p_alvo.y:.2f}')
     plt.show()
